@@ -14,7 +14,7 @@ class InitManager {
   static initLoadRouters() {
     // 绝对路径
     const apiDirectory = `${process.cwd()}/app/api`
-    // 路由自动加载
+    // 路由自动加载 // 参数：第一个参数固定参数module，第二个参数要加载的模块的文件路径，第三个参数：每次加载一个参数执行的函数
     requireDirectory(module, apiDirectory, {
       visit: whenLoadModule
     })

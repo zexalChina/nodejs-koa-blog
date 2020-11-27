@@ -1,11 +1,11 @@
 module.exports = {
   environment: 'dev',
   database: {
-    dbName: 'boblog',
+    dbName: 'soocasblog',
     host: 'localhost',
     port: 3306,
     user: 'root',
-    password: 'bo1234'
+    password: '12345678'
   },
   security: {
     secretKey: "secretKey",

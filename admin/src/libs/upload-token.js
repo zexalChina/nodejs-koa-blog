@@ -2,8 +2,8 @@ const qiniu = require('qiniu')
 
 // 自己可以到"www.qiniu.com" 申请自己的七牛空间
 // 这个账号是我的，不是开放的哦
-const ACCESS_KEY = "PiOFpXzLrVpkJZPuiia3FnfIu3o3HcdFiqddrW9Z";
-const SECRET_KEY = "t_TjZDH93RGCZY-cZhi5gB_o59oAXe6bFOvi1iM5";
+const ACCESS_KEY = "VbQoPJE5xH3YHFf421NaXuBT40U1bYkFhONcP6Hc";
+const SECRET_KEY = "Q6C-natjXe-2LvCsOxxqHgKbBqtHQguXHljHMRUR";
 
 export default async function getUploadToken() {
   return new Promise((resolve, reject) => {

@@ -82,9 +82,9 @@
           author: [
             {required: true, message: '文章作者不能为空', trigger: 'blur'}
           ],
-          cover: [
-            {required: true, message: '文章封面不能为空', trigger: 'blur'}
-          ],
+          // cover: [
+          //   {required: true, message: '文章封面不能为空', trigger: 'blur'}
+          // ],
           description: [
             {required: true, message: '文章简介不能为空', trigger: 'blur'}
           ],
