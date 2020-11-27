@@ -129,3 +129,19 @@ $ npm run dev
 
 [MIT](https://github.com/LFB/nodejs-koa-blog/blob/master/LICENSE), by 梁凤波
 
+## 使用
+个人使用注释
+拉取代码后  先下载[Mysql](https://dev.mysql.com/downloads/mysql/) [redis](https://github.com/tporadowski/redis/releases)
+
+首先配置mysql 然后在config.js中更改连接地址和密码 数据库名称
+
+在redis解压的目录中 用shift+右键命令窗口打开  输入redis-server.exe redis.windows.conf 后不要关闭重新再打开一个命令窗口
+输入mysql -uroot -p 回车后输入数据库密码
+core下的redis.js 需要更改和redis的port一样的端口
+
+使用yarn i 安装项目依赖 版本比较统一不容易报错 
+
+
+
+
+

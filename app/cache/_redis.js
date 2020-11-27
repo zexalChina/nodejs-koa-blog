@@ -3,7 +3,7 @@
  * @author 梁凤波
  */
 const redis = require('redis')
-const { } = require('../../core/redis')
+const {REDIS_CONF} = require('../../core/redis')
 // 创建客户端
 const redisClient = redis.createClient({
   host: REDIS_CONF.host,
