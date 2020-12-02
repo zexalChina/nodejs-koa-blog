@@ -46,9 +46,9 @@ Admin.init({
     }
   }
 }, {
-  sequelize,
-  modelName: 'admin',
-  tableName: 'admin'
+  sequelize,// 我们需要传递连接实例
+  modelName: 'admin',// 我们需要选择模型名称
+  tableName: 'admin'// 我们需要选择表名称
 })
 
 
